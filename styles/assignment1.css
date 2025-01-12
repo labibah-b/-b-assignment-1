@@ -18,6 +18,11 @@ nav{
     color: #006A50;
 }
 
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
 .fira-sans-bold {
@@ -36,6 +41,7 @@ body{
     background-color: #F5F5F5;
     margin-left: 160px;
     margin-right: 160px;
+    max-width: auto;
 }
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
@@ -76,7 +82,7 @@ body{
     justify-content: space-between;
     background-color:#C6E4D6;
     border-radius: 24px;
-
+  
 }
 
 .banner-content{
@@ -89,11 +95,13 @@ body{
 .vision-container{
     display: flex;
     gap: 24px;
+    margin-top: 32px;
 }
 
 .vision{
     padding: 32px;
     border-radius: 16px;
+    width: 100%;
 }
 
 .blue{
@@ -144,6 +152,52 @@ body{
 .font-16{
     font-size: 16px;
 }
+
+.font-32{
+    font-size: 32px;
+}
 main{
     margin-top: 32px;
 }
+
+.news-container{
+    display: flex;
+    padding: 48px 48px;
+    background-color: white;
+    gap: 32px;
+    margin-top: 32px;
+    border-radius: 24px;
+    justify-content: space-between;
+
+}
+
+.news-pic{
+    max-width: 408px;
+    max-height: auto;
+    border-radius: 24px;
+    
+}
+
+.jazeera{
+    max-width: 134px;
+    height: auto;
+}
+
+.news-btn{
+    background-color: #006A50;
+    color: white;
+    width: 139px;
+    height: 48px;
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    margin-top: 32px;
+}
+.news-title{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
